@@ -1,0 +1,12 @@
+dataset:
+    type: "miniImagenet_base_val"
+    base_file: "data/miniImagenet/base+val.json"
+    val_file: "data/miniImagenet/novel.json"
+    novel_file: "data/miniImagenet/novel.json"
+    num_class: 80
+
+train:
+    stop_epoch: 400
+    warmup_params:
+        epoch: 100
+
